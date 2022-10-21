@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BM.MainPage"
+             BackgroundColor="#34b7eb"
+             >
+             
+
+    <StackLayout  Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+
+        <Image Source="BMlogo.png" WidthRequest="180" HeightRequest="180" />
+
+        <Entry x:Name="CompanyID" MaxLength="10" Placeholder="NIP" PlaceholderColor="#036ffc" TextColor="Black"/>
+        <Entry x:Name="CompanyPW" Placeholder="Company_Password" PlaceholderColor="#036ffc" TextColor="Black" IsPassword="true"/>
+
+        <Button 
+            VerticalOptions="Center"
+            Text="Zaloguj"
+            TextColor="Black"
+            BackgroundColor="#346beb"
+            BorderColor="#3477eb"
+            BorderWidth="1.5"
+            CornerRadius="50"
+            Clicked="Button_Clicked"
+                
+        ></Button>
+        
+
+        <Label  HorizontalOptions="Center" >
+
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Skontaktuj sie z " />
+                    <Span Text="GK_mobile" FontAttributes="Bold" TextDecorations="Underline"/>
+                    <Span Text=" aby móc korzystać z aplikacji"/>
+                </FormattedString>
+            </Label.FormattedText>
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer  Tapped="TapGestureRecognizer_Tapped"/>
+            </Label.GestureRecognizers>
+        
+        
+        </Label>
+
+        
+        
+        
+    </StackLayout>
+
+</ContentPage>
