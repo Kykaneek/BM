@@ -8,20 +8,21 @@ using Xamarin.Forms;
 
 namespace BM
 {
-    public partial class MainPage : ContentPage
+    public partial class CompanyLoginPage : ContentPage
     {
-        public MainPage()
+        public CompanyLoginPage()
         {
             InitializeComponent();
 
-
+            
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private void Zaloguj_Button_Clicked(object sender, EventArgs e)
         {
+            
             if ((CompanyID.Text == "9876543210") && (CompanyPW.Text == "CompanyPW"))
             {
-                DisplayAlert("Uwaga", "Zalogowano!", "Close");
+                Navigation.PushModalAsync(new Pulpit());
             }
             else
             {
