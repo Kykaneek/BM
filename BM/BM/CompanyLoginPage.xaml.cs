@@ -22,12 +22,12 @@ namespace BM
             
             if ((CompanyID.Text == "9876543210") && (CompanyPW.Text == "CompanyPW"))
             {
-                Navigation.PushModalAsync(new Pulpit());
+                Navigation.PushModalAsync(new WorkerLoginPage());
             }
             else
             {
                 DisplayAlert("Uwaga", "Błędne dane!", "Close");
-            } 
+            }
         }
 
 

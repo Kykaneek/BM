@@ -16,5 +16,17 @@ namespace BM
         {
             InitializeComponent();
         }
+
+        private void Zaloguj_Clicked(object sender, EventArgs e)
+        {
+            if ((Login.Text == "Boss") && (Password.Text == "BossPW"))
+            {
+                Navigation.PushModalAsync(new Pulpit());
+            }
+            else
+            {
+                DisplayAlert("Uwaga", "Błędne dane!", "Close");
+            }
+        }
     }
 }

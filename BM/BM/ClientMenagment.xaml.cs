@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace BM
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Strona_Uslugi_BM : ContentPage
+    public partial class ClientMenagment : ContentPage
     {
-        public Strona_Uslugi_BM()
+        public ClientMenagment()
         {
             InitializeComponent();
         }

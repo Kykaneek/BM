@@ -31,16 +31,14 @@
 
             <Label.FormattedText>
                 <FormattedString>
-                    <Span Text="Skontaktuj sie z " />
-                    <Span Text="GK_mobile" FontAttributes="Bold" TextDecorations="Underline"/>
-                    <Span Text=" aby móc korzystać z aplikacji"/>
+                    <Span Text="Nie pamiętasz Hasła?" />
+                    <Span Text="Kliknij tutaj!" FontAttributes="Bold" TextDecorations="Underline"/>
+                    <Span Text=" aby je odzyskać!"/>
                 </FormattedString>
             </Label.FormattedText>
-            <Label.GestureRecognizers>
-                <TapGestureRecognizer  Tapped="TapGestureRecognizer_Tapped"/>
-            </Label.GestureRecognizers>
         
-        
+            
+
         </Label>
 
         
