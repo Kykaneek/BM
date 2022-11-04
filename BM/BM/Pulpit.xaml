@@ -2,11 +2,73 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BM.Pulpit">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Tu bedzie Grafik!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35" />
+            <RowDefinition Height="580" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80" />
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="100" />
+        </Grid.ColumnDefinitions>
+
+        <Label x:Name="GODZINA"
+                   Grid.Column="0" Grid.Row="0" Grid.RowSpan="2"
+                   Text="Godzina"
+                   Background="lightgray"
+                   Margin="0"
+                   />
+
+        <Label x:Name="P1"
+                   Grid.Column="1" 
+                   Text="Pracownik_1"
+                   Background="blue"
+                   Margin="0"
+                   />
+
+        <Label x:Name="P2"
+                   Grid.Column="2" 
+                   Text="Pracownik_2"
+                   Background="blue"
+                   />
+
+        <Label x:Name="P3"
+                   Grid.Column="3" 
+                   Text="Pracownik_2"
+                   Background="blue"
+                   />
+
+        <Label x:Name="houers"
+                  Grid.Row="1" Grid.RowSpan="1"
+                   BackgroundColor="LightGray"
+                   />
+
+        <Label x:Name="Prac1"
+                  Grid.Row="1" Grid.Column="1"
+                   BackgroundColor="lightblue"
+                   />
+
+        <Label x:Name="Prac2"
+                  Grid.Row="1" Grid.Column="2"
+                   BackgroundColor="lightblue"
+                   
+                   />
+
+        <Label x:Name="Prac3"
+                  Grid.Row="1" Grid.Column="3" 
+                   BackgroundColor="lightblue"
+                   Margin="0"
+                   Padding="0"
+                   />
+
+    </Grid>
+
+
 </ContentPage>
+
+
+
+
