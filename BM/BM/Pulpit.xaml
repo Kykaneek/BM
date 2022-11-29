@@ -1,70 +1,113 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BM.Pulpit">
+             x:Class="BM.Pulpit"
+             NavigationPage.HasNavigationBar="false">
+                
 
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="35" />
-            <RowDefinition Height="580" />
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="80" />
-            <ColumnDefinition Width="100" />
-            <ColumnDefinition Width="100" />
-            <ColumnDefinition Width="100" />
-        </Grid.ColumnDefinitions>
+    <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
 
-        <Label x:Name="GODZINA"
+                <Grid>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="35" />
+                        <RowDefinition Height="580" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="80" />
+                        <ColumnDefinition Width="100" />
+                        <ColumnDefinition Width="100" />
+                        <ColumnDefinition Width="100" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label x:Name="GODZINA"
                    Grid.Column="0" Grid.Row="0" Grid.RowSpan="2"
                    Text="Godzina"
                    Background="lightgray"
                    Margin="0"
                    />
 
-        <Label x:Name="P1"
+                    <Label x:Name="P1"
                    Grid.Column="1" 
                    Text="Pracownik_1"
                    Background="blue"
                    Margin="0"
                    />
 
-        <Label x:Name="P2"
+                    <Label x:Name="P2"
                    Grid.Column="2" 
                    Text="Pracownik_2"
                    Background="blue"
                    />
 
-        <Label x:Name="P3"
+                    <Label x:Name="P3"
                    Grid.Column="3" 
                    Text="Pracownik_2"
                    Background="blue"
                    />
 
-        <Label x:Name="houers"
+                    <Label x:Name="houers"
                   Grid.Row="1" Grid.RowSpan="1"
                    BackgroundColor="LightGray"
                    />
 
-        <Label x:Name="Prac1"
+                    <Label x:Name="Prac1"
                   Grid.Row="1" Grid.Column="1"
                    BackgroundColor="lightblue"
                    />
 
-        <Label x:Name="Prac2"
+                    <Label x:Name="Prac2"
                   Grid.Row="1" Grid.Column="2"
                    BackgroundColor="lightblue"
                    
                    />
 
-        <Label x:Name="Prac3"
+                    <Label x:Name="Prac3"
                   Grid.Row="1" Grid.Column="3" 
                    BackgroundColor="lightblue"
                    Margin="0"
                    Padding="0"
                    />
 
+                </Grid>
+
+            </StackLayout>
+        </Grid>
+        
+        
+        <Grid x:Name="MainMenuView" ColumnDefinitions="Auto, *" BackgroundColor="#221F33" HeightRequest="500" 
+              VerticalOptions="Start" AnchorX="0.08" AnchorY="0.08" Rotation="-90">
+            <Grid AnchorX="0.08" AnchorY="0.08" Rotation="90">
+                <StackLayout Orientation="Horizontal" Spacing="20">
+                    <ImageButton Source="menu.png" BackgroundColor="Transparent" WidthRequest="20" HeightRequest="20" 
+                            VerticalOptions="Start" HorizontalOptions="Center" Margin="0,5,0,0" Clicked="ShowMenu"/>
+                    <Label x:Name="TitleTxt" Text="Pulpit" TextColor="White" FontSize="22" FontAttributes="Bold" 
+                        HorizontalOptions="Center" VerticalOptions="Start"/>
+                </StackLayout>
+            </Grid>
+            <Grid x:Name="MenuItemsView" Grid.Column="1" HorizontalOptions="FillAndExpand" TranslationX="-50" Opacity="0">
+                <StackLayout Margin="0,70,0,0" Spacing="20" BindableLayout.ItemsSource="{Binding MenuItems}">
+                    <BindableLayout.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout Orientation="Horizontal" Spacing="20">
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="MenuTapped"/>
+                                </StackLayout.GestureRecognizers>
+                                <Image Source="{Binding Icon}" WidthRequest="20" HeightRequest="20" 
+                                    VerticalOptions="Center" HorizontalOptions="Start"/>
+                                <Label Text="{Binding Title}" TextColor="White" FontSize="22" FontAttributes="Bold" 
+                                    HorizontalOptions="Start" VerticalOptions="Center"/>
+                            </StackLayout>
+                        </DataTemplate>
+                    </BindableLayout.ItemTemplate>
+                </StackLayout>
+            </Grid>
+        </Grid>
     </Grid>
+
+
 
 
 </ContentPage>
