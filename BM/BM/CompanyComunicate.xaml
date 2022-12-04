@@ -3,12 +3,87 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BM.CompanyComunicate"
              NavigationPage.HasNavigationBar="false">
-    
+
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto" >
+
+            <Frame BackgroundColor="White" CornerRadius="20" Margin="5,10,5,0" HeightRequest="60" Grid.Row="0">
+                <Grid ColumnDefinitions="Auto,Auto" VerticalOptions="CenterAndExpand">
+
+                    <Ellipse Fill="Blue"
+                     Grid.Column="0"
+                     Grid.Row="0"        
+                     WidthRequest="65"
+                     HeightRequest="70"
+                     HorizontalOptions="Center" />
+
+                    <Image Source="drawble/z_customer.png"/>
+
+
+                    <Label Grid.Column="1" 
+                           Text="Main_User_Name"
+                           BackgroundColor="Blue"
+                           WidthRequest="250"
+                           HeightRequest="100"
+                           HorizontalOptions="Center"
+                           HorizontalTextAlignment="Center"
+                           VerticalOptions="FillAndExpand"
+                           
+                           />
+
+
+
+                </Grid>
+            </Frame>
+
+            <Frame CornerRadius="10" Grid.Row="1" BackgroundColor="White" Margin="10,10,10,0">
+                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
+                    <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                    <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
+                </Grid>
+            </Frame>
+
+            <Frame CornerRadius="10" Grid.Row="2" BackgroundColor="White" Margin="10,10,10,0">
+                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
+                    <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                    <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
+                </Grid>
+            </Frame>
+
+            <Frame CornerRadius="10" Grid.Row="3" BackgroundColor="White" Margin="10,10,10,0">
+                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
+                    <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                    <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
+                </Grid>
+            </Frame>
+            
+            <Frame CornerRadius="10" Grid.Row="4" BackgroundColor="White" Margin="10,10,10,0">
+                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
+                    <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                    <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
+                </Grid>
+            </Frame>
+            
+            <Frame CornerRadius="10" Grid.Row="5" BackgroundColor="White" Margin="10,10,10,0">
+                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
+                    <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                    <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
+                </Grid>
+            </Frame>
+
+            <Frame CornerRadius="10" Grid.Row="6" BackgroundColor="White" Margin="10,10,10,10">
+                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
+                    <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                    <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
+                </Grid>
+            </Frame>
+
+
+        </Grid>
+        
+        
+        
+
     </ContentPage.Content>
+
 </ContentPage>
