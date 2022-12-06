@@ -36,7 +36,7 @@
 
             <Frame CornerRadius="10" Grid.Row="1" BackgroundColor="White" Margin="10,10,10,0">
                 <Grid RowDefinitions="Auto" ColumnDefinitions="*" RowSpacing="10">
-                    <SearchBar Placeholder="Wyszukaj użytkownikaa"  />
+                    <SearchBar Placeholder="Wyszukaj użytkownika"  />
                 </Grid>
             </Frame>
 
