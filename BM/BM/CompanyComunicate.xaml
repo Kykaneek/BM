@@ -83,7 +83,7 @@
             <Frame CornerRadius="10" Grid.Row="7" BackgroundColor="White" Margin="10,10,10,10">
                 <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
                     <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
-                    <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
+                    <Label Grid.Row="0" Grid.Column="1" Text="User_Namee" TextColor="#202020"></Label>
                 </Grid>
             </Frame>
 
