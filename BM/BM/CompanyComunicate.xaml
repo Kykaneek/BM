@@ -6,14 +6,14 @@
 
 
     <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="0,70,0,0">
             <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
 
 
-        <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto, Auto" >
+                <Grid RowDefinitions="Auto" >
 
-            <Frame BackgroundColor="White" CornerRadius="20" Margin="5,10,5,0" HeightRequest="60" Grid.Row="0">
-                <Grid ColumnDefinitions="Auto,Auto" VerticalOptions="CenterAndExpand">
+            <Frame BackgroundColor="White" CornerRadius="20" Margin="5,10,5,0" HeightRequest="135" Grid.Row="0">
+                <Grid ColumnDefinitions="100,Auto" VerticalOptions="CenterAndExpand" Grid.Row="0">
 
                     <Ellipse Fill="Blue"
                      Grid.Column="0"
@@ -23,74 +23,110 @@
                      HorizontalOptions="Center" />
 
                    
-                    <Image Source="drawble/z_customer.png"/>
+                    <Image Source="drawble/z_customer.png" Grid.Row="0"/>
 
 
-                    <Label Grid.Column="1" 
+                    <Label Grid.Column="1"
+                           Grid.Row="0" 
                            Text="Main_User_Name"
                            BackgroundColor="Blue"
                            WidthRequest="250"
                            HeightRequest="100"
                            HorizontalOptions="Center"
                            HorizontalTextAlignment="Center"
-                           VerticalOptions="FillAndExpand"
-                           
-                           />
-                </Grid>
+                           VerticalOptions="FillAndExpand"  
+
+                    />
+                            <Frame CornerRadius="10" Grid.Row="1" Grid.ColumnSpan="2" BackgroundColor="White" Margin="10,10,10,0">
+                                <Grid RowDefinitions="Auto" ColumnDefinitions="*" RowSpacing="10">
+                                    <SearchBar Placeholder="Wyszukaj użytkownika"  />
+                                </Grid>
+                            </Frame>
+                        </Grid>
             </Frame>
 
-            <Frame CornerRadius="10" Grid.Row="1" BackgroundColor="White" Margin="10,10,10,0">
-                <Grid RowDefinitions="Auto" ColumnDefinitions="*" RowSpacing="10">
-                    <SearchBar Placeholder="Wyszukaj użytkownika"  />
                 </Grid>
-            </Frame>
+                <ScrollView Grid.Row="1">
 
-            <Frame CornerRadius="10" Grid.Row="2" BackgroundColor="White" Margin="10,10,10,0">
-                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
-                    <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
-                    <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
-                </Grid>
-            </Frame>
+                        <StackLayout>
+                            <Frame CornerRadius="10"  BackgroundColor="White" Margin="10,10,10,0">
+                                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
+                                    <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                                    <Label Grid.Row="0" Grid.Column="1" Text="User_Namekykan" TextColor="#202020"></Label>
+                                </Grid>
+                            </Frame>
 
-            <Frame CornerRadius="10" Grid.Row="3" BackgroundColor="White" Margin="10,10,10,0">
-                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
-                    <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
-                    <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
-                </Grid>
-            </Frame>
+                            <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0">
+                                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
+                                    <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                                    <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
+                                </Grid>
+                            </Frame>
 
-            <Frame CornerRadius="10" Grid.Row="4" BackgroundColor="White" Margin="10,10,10,0">
-                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
-                    <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
-                    <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
-                </Grid>
-            </Frame>
+                            <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0">
+                                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
+                                    <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                                    <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
+                                </Grid>
+                            </Frame>
+
+                            <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0">
+                                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
+                                    <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                                    <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
+                                </Grid>
+                            </Frame>
+
+                            <Frame CornerRadius="10"  BackgroundColor="White" Margin="10,10,10,0">
+                                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
+                                    <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                                    <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
+                                </Grid>
+                            </Frame>
+
+                            <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,10">
+                                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
+                                    <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                                    <Label Grid.Row="0" Grid.Column="1" Text="User_Namee" TextColor="#202020"></Label>
+                                </Grid>
+                            </Frame>
+                            <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,10">
+                                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
+                                    <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                                    <Label Grid.Row="0" Grid.Column="1" Text="User_Namee" TextColor="#202020"></Label>
+                                </Grid>
+                            </Frame>
+                            <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,10">
+                                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
+                                    <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                                    <Label Grid.Row="0" Grid.Column="1" Text="User_Namee" TextColor="#202020"></Label>
+                                </Grid>
+                            </Frame>
+                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,10">
+                            <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
+                                <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                                <Label Grid.Row="0" Grid.Column="1" Text="User_Namee" TextColor="#202020"></Label>
+                            </Grid>
+                        </Frame>
+                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,10">
+                            <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
+                                <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                                <Label Grid.Row="0" Grid.Column="1" Text="User_Namee" TextColor="#202020"></Label>
+                            </Grid>
+                        </Frame>
+                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,10">
+                            <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
+                                <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                                <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
+                            </Grid>
+                        </Frame>
+                    </StackLayout>
+                    </ScrollView>
+
             
-            <Frame CornerRadius="10" Grid.Row="5" BackgroundColor="White" Margin="10,10,10,0">
-                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
-                    <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
-                    <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
-                </Grid>
-            </Frame>
-            
-            <Frame CornerRadius="10" Grid.Row="6" BackgroundColor="White" Margin="10,10,10,0">
-                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
-                    <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
-                    <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
-                </Grid>
-            </Frame>
-
-            <Frame CornerRadius="10" Grid.Row="7" BackgroundColor="White" Margin="10,10,10,10">
-                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
-                    <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
-                    <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
-                </Grid>
-            </Frame>
-
-
-        </Grid>
 
             </StackLayout>
+             
         </Grid>
 
 
