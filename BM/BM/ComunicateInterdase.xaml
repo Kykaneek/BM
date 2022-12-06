@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BM.ComunicateInterdase"
+             NavigationPage.HasNavigationBar="false">
+    
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Frame CornerRadius="10"  BackgroundColor="White" Margin="8,3,8,0">
+                <Grid  ColumnDefinitions="50,50,*" RowSpacing="10">
+                    <ImageButton Source="menu.png" Grid.Column="0"  Clicked="Powrot" />
+                    <Image Source="dwrable/maleuser.png" Grid.Column="1" BackgroundColor="Aqua"/>
+                    <Label Grid.Row="0" Grid.Column="2" Text="User_Name" TextColor="#202020"></Label>
+                </Grid>
+            </Frame>
+
+
+
+
+
+
+
+
+            <Frame CornerRadius="10"  BackgroundColor="White" Margin="8,3,8,0">
+                <Grid  ColumnDefinitions="50,50,*" RowSpacing="10">
+                    <ImageButton Source="menu.png" Grid.Column="0"  Clicked="Powrot" />
+                    <Image Source="dwrable/maleuser.png" Grid.Column="1" BackgroundColor="Aqua"/>
+                    <Label Grid.Row="0" Grid.Column="2" Text="User_Name" TextColor="#202020"></Label>
+                </Grid>
+            </Frame>
+
+
+          
+        </StackLayout>
+        
+    </ContentPage.Content>
+    
+</ContentPage>

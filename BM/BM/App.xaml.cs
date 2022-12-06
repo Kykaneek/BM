@@ -10,7 +10,7 @@ namespace BM
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new CompanyComunicate()); //CompanyLoginPage
+            MainPage = new NavigationPage(new ComunicateInterdase()); //CompanyLoginPage
         }
 
         protected override void OnStart()

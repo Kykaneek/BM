@@ -49,29 +49,44 @@
                 <ScrollView Grid.Row="1">
 
                         <StackLayout>
-                            <Frame CornerRadius="10"  BackgroundColor="White" Margin="10,10,10,0">
-                                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
-                                    <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
-                                    <Label Grid.Row="0" Grid.Column="1" Text="User_Namekykan" TextColor="#202020"></Label>
-                                </Grid>
-                            </Frame>
 
-                            <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0">
-                                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
+
+                        <Frame x:Name="MessengerUser" CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0" >
+                            <Grid RowDefinitions="Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="GoToMessenger"/>
+                                </Grid.GestureRecognizers>
+                                <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                                <Label Grid.Row="0" Grid.Column="0" Text="User_Namekykan" TextColor="#202020" />
+                            </Grid>
+                        </Frame>
+
+
+                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0" >
+
+                            <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
+                                <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                                <Label Grid.Row="0" Grid.Column="1" Text="User_Namekykan" TextColor="#202020"></Label>
+                            </Grid>
+                        </Frame>
+                       
+                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0">
+
+                            <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
                                     <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
                                     <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
                                 </Grid>
                             </Frame>
 
-                            <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0">
-                                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
+                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0">
+                            <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
                                     <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
                                     <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
                                 </Grid>
                             </Frame>
 
-                            <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0">
-                                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
+                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0">
+                            <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
                                     <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
                                     <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
                                 </Grid>
@@ -140,6 +155,9 @@
                         HorizontalOptions="Start" VerticalOptions="Start" Padding="0" Margin="0,0,0,0" />
                 </StackLayout>
             </Grid>
+            
+            
+            
             <Grid x:Name="MenuItemsView" Grid.Column="1" HorizontalOptions="FillAndExpand" TranslationX="-50" Opacity="0">
                 <StackLayout Margin="0,70,0,0" Spacing="20" BindableLayout.ItemsSource="{Binding MenuItems}">
                     <BindableLayout.ItemTemplate>
@@ -157,6 +175,8 @@
                     </BindableLayout.ItemTemplate>
                 </StackLayout>
             </Grid>
+            
+            
         </Grid>
     </Grid>
 

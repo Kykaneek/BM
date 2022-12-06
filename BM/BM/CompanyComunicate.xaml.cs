@@ -19,7 +19,7 @@ namespace BM
             MenuItems = GetMenus();
             this.BindingContext = this;
         }
-
+        
         public ObservableCollection<Menu> MenuItems { get; set; }
 
 
@@ -35,6 +35,7 @@ namespace BM
 
             };
         }
+
 
 
         private async void Show()
@@ -82,6 +83,8 @@ namespace BM
             }
             else Hide();
         }
+
+        private void GoToMessenger(object sender, EventArgs e) => Navigation.PushModalAsync(new ComunicateInterdase());
     }
 
 }
