@@ -4,7 +4,12 @@
              x:Class="BM.CompanyComunicate"
              NavigationPage.HasNavigationBar="false">
 
-    <ContentPage.Content>
+
+    <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+
+
         <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto, Auto" >
 
             <Frame BackgroundColor="White" CornerRadius="20" Margin="5,10,5,0" HeightRequest="60" Grid.Row="0">
@@ -36,7 +41,7 @@
 
             <Frame CornerRadius="10" Grid.Row="1" BackgroundColor="White" Margin="10,10,10,0">
                 <Grid RowDefinitions="Auto" ColumnDefinitions="*" RowSpacing="10">
-                    <SearchBar Placeholder="Wyszukaj użytkownikaa"  />
+                    <SearchBar Placeholder="Wyszukaj użytkownika"  />
                 </Grid>
             </Frame>
 
@@ -84,10 +89,39 @@
 
 
         </Grid>
-        
-        
-        
 
-    </ContentPage.Content>
+            </StackLayout>
+        </Grid>
+
+
+        <Grid x:Name="MainMenuView" ColumnDefinitions="Auto, *" BackgroundColor="#221F33" HeightRequest="500" 
+              VerticalOptions="Start" AnchorX="0.08" AnchorY="0.08" Rotation="-90">
+            <Grid AnchorX="0.08" AnchorY="0.08" Rotation="90">
+                <StackLayout Orientation="Horizontal" Spacing="20">
+                    <ImageButton Source="menu.png" BackgroundColor="Transparent" WidthRequest="20" HeightRequest="20" 
+                            VerticalOptions="Start" HorizontalOptions="Center" Margin="0,5,0,0" Clicked="ShowMenu"/>
+                    <Label x:Name="TitleTxt" Text="BISUNESS MESSENGER" TextColor="White" FontSize="22" FontAttributes="Bold" 
+                        HorizontalOptions="Start" VerticalOptions="Start" Padding="0" Margin="0,0,0,0" />
+                </StackLayout>
+            </Grid>
+            <Grid x:Name="MenuItemsView" Grid.Column="1" HorizontalOptions="FillAndExpand" TranslationX="-50" Opacity="0">
+                <StackLayout Margin="0,70,0,0" Spacing="20" BindableLayout.ItemsSource="{Binding MenuItems}">
+                    <BindableLayout.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout Orientation="Horizontal" Spacing="20">
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="MenuTapped"/>
+                                </StackLayout.GestureRecognizers>
+                                <Image Source="{Binding Icon}" WidthRequest="20" HeightRequest="20" 
+                                    VerticalOptions="Center" HorizontalOptions="Start"/>
+                                <Label Text="{Binding Title}" TextColor="White" FontSize="22" FontAttributes="Bold" 
+                                    HorizontalOptions="Start" VerticalOptions="Center"/>
+                            </StackLayout>
+                        </DataTemplate>
+                    </BindableLayout.ItemTemplate>
+                </StackLayout>
+            </Grid>
+        </Grid>
+    </Grid>
 
 </ContentPage>

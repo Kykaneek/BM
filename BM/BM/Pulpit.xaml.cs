@@ -40,6 +40,7 @@ namespace BM
             _ = TitleTxt.FadeTo(0);
             _ = MenuItemsView.FadeTo(1);
             await MainMenuView.RotateTo(0, 300, Easing.BounceOut);
+            
         }
 
         private async void Hide()
@@ -51,19 +52,45 @@ namespace BM
 
         private void ShowMenu(object sender, EventArgs e)
         {
+
             Show();
         }
 
         private void MenuTapped(object sender, EventArgs e)
         {
             TitleTxt.Text = ((sender as StackLayout).BindingContext as Menu).Title;
-            Hide();
+            if (TitleTxt.Text == "BISUNESS MESSENGER")
+            {
+                Hide();
+                Navigation.PushModalAsync(new CompanyComunicate());
+            }
+            else if (TitleTxt.Text == "ZARZADZANIE KLIENTAMI")
+            {
+                Hide();
+                Navigation.PushModalAsync(new ClientMenagment());
+            }
+            else if (TitleTxt.Text == "USŁUGI I TOWARY")
+            {
+                Hide();
+                Navigation.PushModalAsync(new CustomerAndServicesManagment());
+            }
+            else if (TitleTxt.Text == "PRACOWNICY")
+            {
+                Hide();
+                Navigation.PushModalAsync(new WorkersManagment());
+            }
+            else Hide();
         }
+
+
+
+
     }
 
     public class Menu
     {
         public string Title { get; set; }
+        public string Name { get; set; }
         public string Icon { get; set; }
     }
 
