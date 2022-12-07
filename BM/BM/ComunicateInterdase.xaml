@@ -7,8 +7,8 @@
     <ContentPage.Content>
         <StackLayout>
 
-            <Frame CornerRadius="10"  BackgroundColor="White" Margin="8,3,8,0">
-                <Grid  ColumnDefinitions="50,50,*" RowSpacing="10">
+            <Frame CornerRadius="10"  BackgroundColor="White" Margin="8,10,8,0">
+                <Grid  ColumnDefinitions="35,35,*" RowSpacing="10">
                     <ImageButton Source="menu.png" Grid.Column="0"  Clicked="Powrot" />
                     <Image Source="dwrable/maleuser.png" Grid.Column="1" BackgroundColor="Aqua"/>
                     <Label Grid.Row="0" Grid.Column="2" Text="User_Name" TextColor="#202020"></Label>
@@ -16,17 +16,189 @@
             </Frame>
 
 
+            <Frame CornerRadius="10"  BackgroundColor="White" Margin="8,1,8,0" HeightRequest="590">
+                <ScrollView>
+                    <StackLayout>
+
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="Start">
+                            <BoxView BackgroundColor="Coral" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+                        
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="End">
+                            <BoxView BackgroundColor="LightGreen" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="Start">
+                            <BoxView BackgroundColor="Coral" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="End">
+                            <BoxView BackgroundColor="LightGreen" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="Start">
+                            <BoxView BackgroundColor="Coral" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="End">
+                            <BoxView BackgroundColor="LightGreen" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="Start">
+                            <BoxView BackgroundColor="Coral" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="End">
+                            <BoxView BackgroundColor="LightGreen" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="Start">
+                            <BoxView BackgroundColor="Coral" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="End">
+                            <BoxView BackgroundColor="LightGreen" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="Start">
+                            <BoxView BackgroundColor="Coral" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="End">
+                            <BoxView BackgroundColor="LightGreen" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="Start">
+                            <BoxView BackgroundColor="Coral" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="End">
+                            <BoxView BackgroundColor="LightGreen" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="Start">
+                            <BoxView BackgroundColor="Coral" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="End">
+                            <BoxView BackgroundColor="LightGreen" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="Start">
+                            <BoxView BackgroundColor="Coral" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="End">
+                            <BoxView BackgroundColor="LightGreen" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="Start">
+                            <BoxView BackgroundColor="Coral" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="End">
+                            <BoxView BackgroundColor="LightGreen" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="Start">
+                            <BoxView BackgroundColor="Coral" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="End">
+                            <BoxView BackgroundColor="LightGreen" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="Start">
+                            <BoxView BackgroundColor="Coral" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="End">
+                            <BoxView BackgroundColor="LightGreen" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="Start">
+                            <BoxView BackgroundColor="Coral" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="End">
+                            <BoxView BackgroundColor="LightGreen" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="Start">
+                            <BoxView BackgroundColor="Coral" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="End">
+                            <BoxView BackgroundColor="LightGreen" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="Start">
+                            <BoxView BackgroundColor="Coral" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="End">
+                            <BoxView BackgroundColor="LightGreen" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="Start">
+                            <BoxView BackgroundColor="Coral" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="End">
+                            <BoxView BackgroundColor="LightGreen" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="Start">
+                            <BoxView BackgroundColor="Coral" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto" HorizontalOptions="End">
+                            <BoxView BackgroundColor="LightGreen" WidthRequest="125" ></BoxView>
+                            <Label Text="FakeMassage" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </Grid>
+                    </StackLayout>
+                </ScrollView>
+            </Frame>
+            
 
 
 
-
-
-
-            <Frame CornerRadius="10"  BackgroundColor="White" Margin="8,3,8,0">
-                <Grid  ColumnDefinitions="50,50,*" RowSpacing="10">
-                    <ImageButton Source="menu.png" Grid.Column="0"  Clicked="Powrot" />
-                    <Image Source="dwrable/maleuser.png" Grid.Column="1" BackgroundColor="Aqua"/>
-                    <Label Grid.Row="0" Grid.Column="2" Text="User_Name" TextColor="#202020"></Label>
+            <Frame CornerRadius="10"  BackgroundColor="White" Margin="8,3,8,0" HeightRequest="30">
+                <Grid  ColumnDefinitions="Auto,Auto,Auto,*,Auto" RowDefinitions="Auto" RowSpacing="10">
+                    <BoxView  Grid.Column="0" BackgroundColor="Red"  />
+                    <Label Grid.Column="0" Text="Zdjęcie" HorizontalOptions="Center" />
+                    
+                    <BoxView  Grid.Column="1" BackgroundColor="Blue"/>
+                    <Label Grid.Column="1" Text="Załącz" HorizontalOptions="Center" />
+                    
+                    <BoxView  Grid.Column="2" BackgroundColor="Green"/>
+                    <Label Grid.Column="2" WidthRequest="10" Text="Głosowa" HorizontalOptions="Center" />
+                    
+                    <BoxView Grid.Column="3" MinimumWidthRequest="50" MinimumHeightRequest="50" Color="Cyan" CornerRadius="10"/>
+                    <Editor Grid.Column="3" MinimumWidthRequest="50" MinimumHeightRequest="50"  />
+                
+                    <BoxView  Grid.Column="4" BackgroundColor="GreenYellow"/>
+                    <Label Grid.Column="4" Text="Wyslij" HorizontalOptions="Center" /> 
                 </Grid>
             </Frame>
 
