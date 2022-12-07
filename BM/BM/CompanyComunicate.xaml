@@ -51,88 +51,156 @@
                         <StackLayout>
 
 
-                        <Frame x:Name="MessengerUser" CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0" >
-                            <Grid RowDefinitions="Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
-                                <Grid.GestureRecognizers>
-                                    <TapGestureRecognizer Tapped="GoToMessenger"/>
-                                </Grid.GestureRecognizers>
+                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0" >
+                            <Grid  ColumnDefinitions="Auto,*" RowSpacing="10">
+                                <Button Grid.Column="0"  Grid.ColumnSpan="2" BackgroundColor="Transparent" Clicked="GoToMessenger" />
                                 <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
-                                <Label Grid.Row="0" Grid.Column="0" Text="User_Namekykan" TextColor="#202020" />
+                                <Label Grid.Row="0" Grid.Column="1" Text="User_Name1" TextColor="#202020"></Label>
                             </Grid>
                         </Frame>
-
 
                         <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0" >
-
-                            <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
+                            <Grid  ColumnDefinitions="Auto,*" RowSpacing="10">
+                                <Button Grid.Column="0"  Grid.ColumnSpan="2" BackgroundColor="Transparent" Clicked="GoToMessenger" />
                                 <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
-                                <Label Grid.Row="0" Grid.Column="1" Text="User_Namekykan" TextColor="#202020"></Label>
+                                <Label Grid.Row="0" Grid.Column="1" Text="User_Name2" TextColor="#202020"></Label>
                             </Grid>
                         </Frame>
-                       
-                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0">
 
-                            <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
-                                    <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
-                                    <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
-                                </Grid>
-                            </Frame>
+                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0" >
+                            <Grid  ColumnDefinitions="Auto,*" RowSpacing="10">
+                                <Button Grid.Column="0"  Grid.ColumnSpan="2" BackgroundColor="Transparent" Clicked="GoToMessenger" />
+                                <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                                <Label Grid.Row="0" Grid.Column="1" Text="User_Name3" TextColor="#202020"></Label>
+                            </Grid>
+                        </Frame>
 
-                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0">
-                            <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
-                                    <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
-                                    <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
-                                </Grid>
-                            </Frame>
+                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0" >
+                            <Grid  ColumnDefinitions="Auto,*" RowSpacing="10">
+                                <Button Grid.Column="0"  Grid.ColumnSpan="2" BackgroundColor="Transparent" Clicked="GoToMessenger" />
+                                <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                                <Label Grid.Row="0" Grid.Column="1" Text="User_Name4" TextColor="#202020"></Label>
+                            </Grid>
+                        </Frame>
 
-                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0">
-                            <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
-                                    <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
-                                    <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
-                                </Grid>
-                            </Frame>
+                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0" >
+                            <Grid  ColumnDefinitions="Auto,*" RowSpacing="10">
+                                <Button Grid.Column="0"  Grid.ColumnSpan="2" BackgroundColor="Transparent" Clicked="GoToMessenger" />
+                                <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                                <Label Grid.Row="0" Grid.Column="1" Text="User_Name5" TextColor="#202020"></Label>
+                            </Grid>
+                        </Frame>
 
-                            <Frame CornerRadius="10"  BackgroundColor="White" Margin="10,10,10,0">
-                                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
-                                    <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
-                                    <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
-                                </Grid>
-                            </Frame>
-
+                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0" >
+                            <Grid  ColumnDefinitions="Auto,*" RowSpacing="10">
+                                <Button Grid.Column="0"  Grid.ColumnSpan="2" BackgroundColor="Transparent" Clicked="GoToMessenger" />
+                                <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                                <Label Grid.Row="0" Grid.Column="1" Text="User_Name6" TextColor="#202020"></Label>
+                            </Grid>
+                        </Frame>
+                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0" >
+                            <Grid  ColumnDefinitions="Auto,*" RowSpacing="10">
+                                <Button Grid.Column="0"  Grid.ColumnSpan="2" BackgroundColor="Transparent" Clicked="GoToMessenger" />
+                                <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                                <Label Grid.Row="0" Grid.Column="1" Text="User_Name7" TextColor="#202020"></Label>
+                            </Grid>
+                        </Frame>
                             <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,10">
                                 <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
                                     <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
-                                    <Label Grid.Row="0" Grid.Column="1" Text="User_Namee" TextColor="#202020"></Label>
+                                    <Label Grid.Row="0" Grid.Column="1" Text="User_Namee8" TextColor="#202020"></Label>
                                 </Grid>
                             </Frame>
-                            <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,10">
-                                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
-                                    <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
-                                    <Label Grid.Row="0" Grid.Column="1" Text="User_Namee" TextColor="#202020"></Label>
-                                </Grid>
-                            </Frame>
-                            <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,10">
-                                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
-                                    <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
-                                    <Label Grid.Row="0" Grid.Column="1" Text="User_Namee" TextColor="#202020"></Label>
-                                </Grid>
-                            </Frame>
-                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,10">
-                            <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
+
+                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0" >
+                            <Grid  ColumnDefinitions="Auto,*" RowSpacing="10">
+                                <Button Grid.Column="0"  Grid.ColumnSpan="2" BackgroundColor="Transparent" Clicked="GoToMessenger" />
                                 <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
-                                <Label Grid.Row="0" Grid.Column="1" Text="User_Namee" TextColor="#202020"></Label>
+                                <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
                             </Grid>
                         </Frame>
-                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,10">
-                            <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
+                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0" >
+                            <Grid  ColumnDefinitions="Auto,*" RowSpacing="10">
+                                <Button Grid.Column="0"  Grid.ColumnSpan="2" BackgroundColor="Transparent" Clicked="GoToMessenger" />
                                 <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
-                                <Label Grid.Row="0" Grid.Column="1" Text="User_Namee" TextColor="#202020"></Label>
+                                <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
                             </Grid>
                         </Frame>
-                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,10">
-                            <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" RowSpacing="10">
+                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0" >
+                            <Grid  ColumnDefinitions="Auto,*" RowSpacing="10">
+                                <Button Grid.Column="0"  Grid.ColumnSpan="2" BackgroundColor="Transparent" Clicked="GoToMessenger" />
                                 <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
-                                <Label Grid.Row="0" Grid.Column="1" Text="User_Namee" TextColor="#202020"></Label>
+                                <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
+                            </Grid>
+                        </Frame>
+                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0" >
+                            <Grid  ColumnDefinitions="Auto,*" RowSpacing="10">
+                                <Button Grid.Column="0"  Grid.ColumnSpan="2" BackgroundColor="Transparent" Clicked="GoToMessenger" />
+                                <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                                <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
+                            </Grid>
+                        </Frame>
+                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0" >
+                            <Grid  ColumnDefinitions="Auto,*" RowSpacing="10">
+                                <Button Grid.Column="0"  Grid.ColumnSpan="2" BackgroundColor="Transparent" Clicked="GoToMessenger" />
+                                <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                                <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
+                            </Grid>
+                        </Frame>
+                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0" >
+                            <Grid  ColumnDefinitions="Auto,*" RowSpacing="10">
+                                <Button Grid.Column="0"  Grid.ColumnSpan="2" BackgroundColor="Transparent" Clicked="GoToMessenger" />
+                                <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                                <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
+                            </Grid>
+                        </Frame>
+                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0" >
+                            <Grid  ColumnDefinitions="Auto,*" RowSpacing="10">
+                                <Button Grid.Column="0"  Grid.ColumnSpan="2" BackgroundColor="Transparent" Clicked="GoToMessenger" />
+                                <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                                <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
+                            </Grid>
+                        </Frame>
+                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0" >
+                            <Grid  ColumnDefinitions="Auto,*" RowSpacing="10">
+                                <Button Grid.Column="0"  Grid.ColumnSpan="2" BackgroundColor="Transparent" Clicked="GoToMessenger" />
+                                <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                                <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
+                            </Grid>
+                        </Frame>
+                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0" >
+                            <Grid  ColumnDefinitions="Auto,*" RowSpacing="10">
+                                <Button Grid.Column="0"  Grid.ColumnSpan="2" BackgroundColor="Transparent" Clicked="GoToMessenger" />
+                                <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                                <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
+                            </Grid>
+                        </Frame>
+                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0" >
+                            <Grid  ColumnDefinitions="Auto,*" RowSpacing="10">
+                                <Button Grid.Column="0"  Grid.ColumnSpan="2" BackgroundColor="Transparent" Clicked="GoToMessenger" />
+                                <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                                <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
+                            </Grid>
+                        </Frame>
+                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0" >
+                            <Grid  ColumnDefinitions="Auto,*" RowSpacing="10">
+                                <Button Grid.Column="0"  Grid.ColumnSpan="2" BackgroundColor="Transparent" Clicked="GoToMessenger" />
+                                <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                                <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
+                            </Grid>
+                        </Frame>
+                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0" >
+                            <Grid  ColumnDefinitions="Auto,*" RowSpacing="10">
+                                <Button Grid.Column="0"  Grid.ColumnSpan="2" BackgroundColor="Transparent" Clicked="GoToMessenger" />
+                                <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                                <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
+                            </Grid>
+                        </Frame>
+                        <Frame CornerRadius="10" BackgroundColor="White" Margin="10,10,10,0" >
+                            <Grid  ColumnDefinitions="Auto,*" RowSpacing="10">
+                                <Button Grid.Column="0"  Grid.ColumnSpan="2" BackgroundColor="Transparent" Clicked="GoToMessenger" />
+                                <Image Source="dwrable/maleuser.png" Grid.Column="0" BackgroundColor="Aqua"/>
+                                <Label Grid.Row="0" Grid.Column="1" Text="User_Name" TextColor="#202020"></Label>
                             </Grid>
                         </Frame>
                     </StackLayout>
