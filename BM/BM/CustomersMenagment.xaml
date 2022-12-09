@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BM.CustomersMenagment">
+
+
+    <Grid ColumnDefinitions="10,*,10" RowDefinitions="Auto ,Auto, Auto, Auto, Auto" MinimumHeightRequest="500">
+        <Frame Grid.Column="1" Grid.Row="0" HeightRequest="525"  Margin="0,60,0,0">
+
+            <ScrollView>
+                <StackLayout>
+
+                    <Frame BorderColor="LawnGreen" BackgroundColor="GreenYellow" CornerRadius="15" HeightRequest="100" Margin="2,3,2,3">
+                        <Grid ColumnDefinitions="Auto,*,Auto" RowDefinitions="Auto,Auto,Auto,Auto">
+                            <Label Grid.Row="1" Grid.Column="1"
+                               Text="Nazwa_Usługi"
+                               FontSize="25"
+                               HorizontalOptions="Start"
+                            />
+
+                            <Button Grid.Row="3" Grid.Column="1" 
+                                   Text="Opis suługi" 
+                                   HorizontalOptions="Start"
+                                   BackgroundColor="red"
+                                    
+                            />
+
+                        </Grid>
+                    </Frame>
+
+                    <Frame BorderColor="LawnGreen" BackgroundColor="GreenYellow" CornerRadius="15" HeightRequest="100" Margin="2,3,2,3">
+                        <Grid ColumnDefinitions="Auto,*,Auto" RowDefinitions="Auto,Auto,Auto,Auto">
+                            <Label Grid.Row="1" Grid.Column="1"
+                               Text="Nazwa_Usługi"
+                               FontSize="25"
+                               HorizontalOptions="Start"
+                            />
+
+                            <Button Grid.Row="3" Grid.Column="1" 
+                                   Text="Opis suługi" 
+                                   HorizontalOptions="Start"
+                                   BackgroundColor="red"
+                                    
+                            />
+
+                        </Grid>
+                    </Frame>
+
+                    <Frame BorderColor="LawnGreen" BackgroundColor="GreenYellow" CornerRadius="15" HeightRequest="100" Margin="2,3,2,3">
+                        <Grid ColumnDefinitions="Auto,*,Auto" RowDefinitions="Auto,Auto,Auto,Auto">
+                            <Label Grid.Row="1" Grid.Column="1"
+                               Text="Nazwa_Usługi"
+                               FontSize="25"
+                               HorizontalOptions="Start"
+                            />
+
+                            <Button Grid.Row="3" Grid.Column="1" 
+                                   Text="Opis suługi" 
+                                   HorizontalOptions="Start"
+                                   BackgroundColor="red"
+                                    
+                            />
+
+                        </Grid>
+                    </Frame>
+
+                    <Frame BorderColor="LawnGreen" BackgroundColor="GreenYellow" CornerRadius="15" HeightRequest="100" Margin="2,3,2,3">
+                        <Grid ColumnDefinitions="Auto,*,Auto" RowDefinitions="Auto,Auto,Auto,Auto">
+                            <Label Grid.Row="1" Grid.Column="1"
+                               Text="Nazwa_Usługi"
+                               FontSize="25"
+                               HorizontalOptions="Start"
+                            />
+
+                            <Button Grid.Row="3" Grid.Column="1" 
+                                   Text="Opis suługi" 
+                                   HorizontalOptions="Start"
+                                   BackgroundColor="red"
+                                    
+                            />
+
+                        </Grid>
+                    </Frame>
+
+                    <Frame BorderColor="LawnGreen" BackgroundColor="GreenYellow" CornerRadius="15" HeightRequest="100" Margin="2,3,2,3">
+                        <Grid ColumnDefinitions="Auto,*,Auto" RowDefinitions="Auto,Auto,Auto,Auto">
+                            <Label Grid.Row="1" Grid.Column="1"
+                               Text="Nazwa_Usługi"
+                               FontSize="25"
+                               HorizontalOptions="Start"
+                            />
+
+                            <Button Grid.Row="3" Grid.Column="1" 
+                                   Text="Opis suługi" 
+                                   HorizontalOptions="Start"
+                                   BackgroundColor="red"
+                                    
+                            />
+
+                        </Grid>
+                    </Frame>
+
+                    <Frame BorderColor="LawnGreen" BackgroundColor="GreenYellow" CornerRadius="15" HeightRequest="100" Margin="2,3,2,3">
+                        <Grid ColumnDefinitions="Auto,*,Auto" RowDefinitions="Auto,Auto,Auto,Auto">
+                            <Label Grid.Row="1" Grid.Column="1"
+                               Text="Nazwa_Usługi"
+                               FontSize="25"
+                               HorizontalOptions="Start"
+                            />
+
+                            <Button Grid.Row="3" Grid.Column="1" 
+                                   Text="Opis suługi" 
+                                   HorizontalOptions="Start"
+                                   BackgroundColor="red"
+                                    
+                            />
+
+                        </Grid>
+                    </Frame>
+
+                    <Frame BorderColor="LawnGreen" BackgroundColor="GreenYellow" CornerRadius="15" HeightRequest="100" Margin="2,3,2,3">
+                        <Grid ColumnDefinitions="Auto,*,Auto" RowDefinitions="Auto,Auto,Auto,Auto">
+                            <Label Grid.Row="1" Grid.Column="1"
+                               Text="Nazwa_Usługi"
+                               FontSize="25"
+                               HorizontalOptions="Start"
+                            />
+
+                            <Button Grid.Row="3" Grid.Column="1" 
+                                   Text="Opis suługi" 
+                                   HorizontalOptions="Start"
+                                   BackgroundColor="red"
+                                    
+                            />
+
+                        </Grid>
+                    </Frame>
+
+                </StackLayout>
+            </ScrollView>
+        </Frame>
+
+        <Button Grid.Column="1" Grid.Row="2" Text="Dodaj usługę" TextColor="White" BackgroundColor="Red" CornerRadius="10"/>
+        <Button Grid.Column="1" Grid.Row="3" Text="Usuń usługę" TextColor="White" BackgroundColor="Red" CornerRadius="10"/>
+        <Button Grid.Column="1" Grid.Row="4" Text="Modyfikuj usługę" TextColor="White" BackgroundColor="Red" CornerRadius="10"/>
+
+    </Grid>
+
+
+</ContentPage>

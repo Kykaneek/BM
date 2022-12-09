@@ -69,12 +69,12 @@ namespace BM
             else if (TitleTxt.Text == "ZARZADZANIE KLIENTAMI")
             {
                 Hide();
-                Navigation.PushModalAsync(new ClientMenagment());
+                Navigation.PushModalAsync(new ServiceMenagment());
             }
             else if (TitleTxt.Text == "USŁUGI I TOWARY")
             {
                 Hide();
-                Navigation.PushModalAsync(new CustomerAndServicesManagment());
+                Navigation.PushModalAsync(new CustomersMenagment());
             }
             else if (TitleTxt.Text == "PRACOWNICY")
             {
